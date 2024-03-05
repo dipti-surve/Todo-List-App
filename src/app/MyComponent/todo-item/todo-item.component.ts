@@ -15,4 +15,7 @@ export class TodoItemComponent implements OnInit{
     this.todoDelete.emit(todo);
     console.log("onClick has been triggered")
   }
+  onCheckboxClick(todo:Todo){
+
+  }
 }
